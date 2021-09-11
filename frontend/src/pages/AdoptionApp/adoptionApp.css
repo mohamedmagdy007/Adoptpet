@@ -1,0 +1,62 @@
+@import url("http://fonts.cdnfonts.com/css/quicksand");
+.header{
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgb(41 41 41 / 42%);
+    background-color: #e9ecef;
+}
+.myFont {
+    font-family: "Quicksand", sans-serif;
+}
+.adpotForm{
+    background-color:#FBF4DE;
+    border-radius: 155px 45px 225px 75px/15px 125px 15px 155px;
+    padding: 15px;
+}
+#AdoptForm input[type="text"],#petTypes{
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    width: 100%;
+    border: 2px solid #675444;
+    outline: none;
+    padding: 5px 15px;
+}
+#AdoptForm input[type="date"], #size,#gender,#vaccinated{
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    border: 2px solid #675444;
+    outline: none;
+    padding: 5px 7px;
+}
+
+#AdoptForm textarea{
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    width: 100%;
+    border: 2px solid #675444;
+    outline: none;
+    padding: 5px 15px;
+}
+#AdoptForm input[type="submit"]{
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    outline: none;
+    color: #fff;
+    background-color: #F9575C;
+    border:none;
+    transition: all .3s ease;
+}
+.input-group {
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+    border: 2px solid #675444;
+    outline: none;
+    padding: 3px 8px;
+}
+#AdoptForm .sendMessage:hover{
+    background-color: #F9BE4F;
+}
+.choose-img-pet .custom-file-label{
+    border-radius: 355px 45px 225px 75px/15px 225px 15px 255px !important;
+    border: 2px solid #675444 !important;
+}
+.choose-img-pet .custom-file-label::after {
+    background-color: #f9575ce3 !important;
+    color: #fbf4de !important;
+}
